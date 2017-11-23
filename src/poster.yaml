@@ -1,0 +1,53 @@
+---
+sponsor:
+  - img/sponsor1.png
+  - img/sponsor4.png
+  - img/sponsor2.png
+title: Tizen Connect Everything
+time: 2017/11/24 星期五 15:00 司骞
+venue: 计算机与控制工程学院 信息东楼 421
+other_flag: false
+other:
+ - img/12.png
+ - img/13.png
+ - img/15.png
+ - img/16.png
+speaker_flag: true
+speaker:
+  name: 主讲人：郑春厚
+  avatar: img/avatar.png
+chapter:
+  - section: Tizen 4.0
+    content:
+      - 2017三星开发者大会
+      - Tizen系统的发展历史及未来展望
+      - Tizen 4.0的新特性
+  - section: .NET应用
+    content:
+      - 基于.NET 2.0的电视应用框架
+      - 支持三星电视和三星设备的C# API
+      - .NET的优势
+      - .NET电视应用框架的系统架构及其优势
+      - 开发Tizen应用的Visual Studio插件
+      - 基于不同设备的特征API
+  - section: AI-Bixby
+    content:
+      - 智能平台Bixby的简要介绍
+      - 智能平台Bixby的应用场景
+      - 智能平台Bixby的发展历史
+      - 智能平台Bixby的系统架构
+      - 智能平台Bixby的未来展望
+  - section: IoT-SmartThings
+    content:
+      - 参与到IoT开发的开发者越来越多
+      - IoT当前面临的挑战
+      - IoT领域的发展现状及应用场景
+      - Tizen IoT的系统架构
+      - Tizen IoT的硬件生态环境
+      - Tizen IoT的软件生态环境
+      - 如何保证IoT应用的安全性
+      - IoT.js
+      - IoT提供的服务
+      - IoT生态环境的整体架构
+      - IoT生态环境的应用领域
+      - IoT生态环境的发展前景

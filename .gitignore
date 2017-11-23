@@ -1,2 +1,11 @@
 .idea/
 venv/
+<<<<<<< HEAD
+=======
+gen/
+dist/
+build/
+poster.spec
+login.yaml
+img/
+>>>>>>> 2fcb2eb... stage 2:

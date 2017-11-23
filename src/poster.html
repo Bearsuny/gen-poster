@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>POSTER</title>
+  <link rel="stylesheet" href="css/poster.css"/>
+  {% if other_flag != true %}
+    <style>
+     .other{
+       visibility: hidden;
+     }
+    </style>
+  {% endif %}
+  {% if speaker_flag != true %}
+    <style>
+     .speaker{
+       visibility: hidden;
+     }
+    </style>
+  {% endif %}
+</head>
+<body>
+<div id="origin">
+  <div class="sponsor">
+    {% for item in sponsor %}
+      <div class="sponsor-item" style="background-image: url({{ item }})"></div>
+    {% endfor %}
+  </div>
+  <div class="title">
+    {{ title }}
+  </div>
+  <div class="sub-title">
+    {{ time }} {{ venue }}
+  </div>
+  <div class="chapter">
+    {% for item in chapter %}
+      <div class="section">{{ item.section }}</div>
+      <ul>
+        {% for item in item.content %}
+          <li class="section-content">{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+    <div class="other">
+      {% for item in other %}
+        <div class="other-item" style="background-image: url({{ item }})"></div>
+      {% endfor %}
+    </div>
+    <div class="speaker">
+      <div class="speaker-avatar"
+           style="background-image: url({{ speaker.avatar }})"></div>
+      <div class="speaker-name">{{ speaker.name }}</div>
+    </div>
+  </div>
+</div>
+<div id="generate">
+</div>
+</body>
+<script src="js/html2canvas.js"></script>
+<script src="js/canvas2image.js"></script>
+<script src="js/poster.js"></script>
+</html>
